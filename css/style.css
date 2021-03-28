@@ -7,21 +7,49 @@
 }
 
 /* css comuni per grandezze e disposizione*/
-
+.width-100 {
+    width: 100%;
+}
 .width-70 {
     width: 70%;
 }
-
+.inline-block {
+    display: inline-block;
+}
 .margin-auto {
     margin: auto;
 }
 .float-left {
     float: left;
 }
+.no-border {
+    border: none;
+}
+.no-decoration {
+    text-decoration: none;
+}
+.clearfix::after {
+    content:"";
+    display: table; 
+    clear: both;
+}
+.relative {
+    position: relative;
+}
+.vertical-middle {
+    vertical-align: middle;
+}
+.button {
+    padding: 5px 10px;
+    border: 1px solid #FE775A;
+    border-radius: 5px;
+
+}
+
 
 /* css per colorazione  */
 .bk-red {
-    background-color: red;
+    background-color: #FE775A;
 }
 .bk-green {
     background-color: green;
@@ -38,17 +66,60 @@
 .bk-pink {
     background-color: pink;
 }
+.text-blue {
+    color: #3D5364;
+}
+.text-red {
+    color: #FE775A;
+}
+.text-white {
+    color: white;
+}
+.font-13 {
+    font-size: 13px;
+}
+.font-15 {
+    font-size: 15px;
+}
+.font-20 {
+    font-size: 20px;
+}
 
 /* css dell'header */
-.header-top {
-    height: 100px;
+header section {
+    background-color: #F4F9FD;
+}
+.header-top-left {
+    margin: 20px 0 20px 0;
+    width: 40%;
+}
+.header-top-right {
+    width: 60%;
+    margin: 20px 0 20px 0;
+    text-align: right;
 }
 
-.header-tup {
-    width: 50%;
-    height: 80px;
+.language::before {
+    content:"\2638";
 }
-
-.header-top-up {
-    height: 80px;
+#select-language {
+    border: none;
+    color: #3D5364;
+}
+.header-contact {
+    margin-left: 3%;
+    padding: 0 5%;
+    border-left: 1px solid #3D5364;
+    vertical-align: middle;
+}
+.header-contact a{
+    margin: 20px 0 20px 0;
+    text-decoration: none;
+}
+.header-top-right a {
+    margin-left: 20px;
+}
+.search {
+    background-color: #F4F9FD;
+    color: #37B6CB;
 }

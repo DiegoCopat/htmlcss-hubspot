@@ -11,17 +11,39 @@
         
 <!-- sezione dedicata all'header -->
         <header>
-            <section class="header-top width-70 bk-red margin-auto">
-                <div class="header-top-up bk-green">
-                    <div class="header-tup bk-orange">
-
+            <section class="width-70 margin-auto">
+                <div class="width-100 font-15 clearfix">
+                    <!-- sezione dell'header-sx -->
+                    <div class="header-top-left float-left">
+                        <!-- tabella con la scelta della lingua -->
+                        <div class="language inline-block text-blue">
+                            <select name="Language" id="select-language">
+                                <option value="It">Italiano</option>
+                                <option value="Eng">English</option>
+                                <option value="De">Deutch</option>
+                                <option value="Es">Español</option>
+                                <option value="Fr">Français</option>
+                            </select>
+                        </div>
+                        <!-- /tabella con la scelta della lingua -->
+                        <div class="header-contact inline-block">
+                            <a class="text-blue" href="#">Contact Us</a>
+                        </div>
                     </div>
-                    <div class="header-tup bk-grey">
-                        
+                    <!-- /sezione dell'header-sx -->
+                    <!-- sezione dell'header-dx -->
+                    <div class="header-top-right font-13 float-left">
+                        <form class="inline-block">
+                            <input class="no-border" type="gsearch" name="gsearch">
+                            <input class="no-border search font-15" type="button" value="&#x2661;">
+                        </form>
+                        <a class="button inline-block text-red font-12 no-decoration" href="#">Log In</a>
+                        <a class="button bk-red text-white inline-block no-decoration" href="#">GetHubspotFree</a>
                     </div>
-
+                    <!-- sezione dell'header-dx -->
                 </div>
             </section>
+            <hr class="text-blue">
         </header>
 <!-- /sezione dedicata all'header -->
         
