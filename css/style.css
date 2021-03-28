@@ -1,0 +1,54 @@
+/* css comuni */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* css comuni per grandezze e disposizione*/
+
+.width-70 {
+    width: 70%;
+}
+
+.margin-auto {
+    margin: auto;
+}
+.float-left {
+    float: left;
+}
+
+/* css per colorazione  */
+.bk-red {
+    background-color: red;
+}
+.bk-green {
+    background-color: green;
+}
+.bk-orange {
+    background-color: orange;
+}
+.bk-grey {
+    background-color: grey;
+}
+.bk-blue {
+    background-color: blue;
+}
+.bk-pink {
+    background-color: pink;
+}
+
+/* css dell'header */
+.header-top {
+    height: 100px;
+}
+
+.header-tup {
+    width: 50%;
+    height: 80px;
+}
+
+.header-top-up {
+    height: 80px;
+}
