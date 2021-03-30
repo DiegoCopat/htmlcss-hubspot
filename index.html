@@ -5,16 +5,16 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;700&display=swap" rel="stylesheet">        
         <link rel="stylesheet" href="css/style.css">
         <title>Hubspot</title>
     </head>
     <body>
         
 <!-- sezione dedicata all'header -->
-        <header>
-            <section class="width-100">
-                <div class="width-70 margin-auto font-15 clearfix">
+        <header class="f-weight-700">
+            <section id="fixed" class="bk-blue width-100">
+                <div class="width-70 spacing-1 margin-auto font-13 clearfix">
                     <!-- sezione dell'header-sx -->
                     <div class="header-top-left float-left">
                         <!-- tabella con la scelta della lingua -->
@@ -34,7 +34,7 @@
                     </div>
                     <!-- /sezione dell'header-sx -->
                     <!-- sezione dell'header-dx -->
-                    <div class="header-top-right font-13 float-left">
+                    <div class="header-top-right width-70 font-13 float-left">
                         <form class="inline-block">
                             <input class="no-border" type="gsearch" name="gsearch">
                             <input class="no-border search font-15" type="button" value="&#x2661;">
@@ -46,52 +46,53 @@
                 </div>
             </section>
             <hr class="text-blue">
-            <section class="header-center width-70 margin-auto">
-                <section>
-                    <div class="width-30 float-left">
-                        <img class="float-left" src="img/logo.svg" alt="">
-                    </div>
-                    <div class="nav width-70 float-left relative">
-                        <ul class="width-100 float-left align-right">
-                            <li>
-                                <select class="no-border" name="software" id="Software">
-                                    <option value="">Sofware</option>
-                                    <option value="">Marketing Hub</option>
-                                    <option value="">Service Hub</option>
-                                    <option value="">Sales Hub</option>
-                                    <option value="">Cms Hub</option>
-                                </select>
-                            </li>
-                            <li>
-                                <a class="no-decoration" href="#"><span class="a">Pricing</span></a>
-                            </li>
-                            <li>
-                                <select class="no-border" name="resources" id="Resources">
-                                    <option value="">Resources</option>
-                                    <option value="">Why Hubspot</option>
-                                    <option value="">Services</option>
-                                    <option value="">Prtners & Developers</option>
-                                </select>
-                            </li>
-                            <li>
-                                <select class="no-border" name="partners" id="Partners">
-                                    <option value="">Partners</option>
-                                    <option value="">Partners programs</option>
-                                    <option value="">Developer Tools</option>
-                                </select>
-                            </li>
-                            <li>
-                                <select class="no-border" name="about" id="about">
-                                    <option value="">About</option>
-                                    <option value="">Sofware</option>
-                                    <option value="">Resources</option>
-                                    <option value="">Partners</option>
-                                </select>
-                            </li>
-
-                        </ul>
-                        </form>
-                    </div>
+            <section class="bk-white ">
+                <section class=" header-center width-70 margin-auto">
+                    <section class="spacing-1 clearfix">
+                        <div class="width-30 float-left">
+                            <img class="float-left" src="img/logo.svg" alt="">
+                        </div>
+                        <div class="nav width-70 float-left relative">
+                            <ul class="width-100 float-left align-right">
+                                <li>
+                                    <select class="no-border f-weight-700" name="software" id="Software">
+                                        <option value="">Sofware</option>
+                                        <option value="">Sofware</option>
+                                        <option value="">Sofware</option>
+                                        <option value="">Sofware</option>
+                                        <option value="">Sofware</option>
+                                    </select>
+                                </li>
+                                <li>
+                                    <a class="no-decoration f-weight-700" href="#"><span class="a">Pricing</span></a>
+                                </li>
+                                <li>
+                                    <select class="no-border f-weight-700" name="resources" id="Resources">
+                                        <option value="">Resources</option>
+                                        <option value="">Resources</option>
+                                        <option value="">Resources</option>
+                                        <option value="">Resources</option>
+                                    </select>
+                                </li>
+                                <li>
+                                    <select class="no-border f-weight-700" name="partners" id="Partners">
+                                        <option value="">Partners</option>
+                                        <option value="">Partners</option>
+                                        <option value="">Partners</option>
+                                    </select>
+                                </li>
+                                <li>
+                                    <select class="no-border f-weight-700" name="about" id="about">
+                                        <option value="">About</option>
+                                        <option value="">About</option>
+                                        <option value="">About</option>
+                                        <option value="">About</option>
+                                    </select>
+                                </li>
+    
+                            </ul>
+                        </div>
+                    </section>
                 </section>
             </section>
         </header>
@@ -99,8 +100,51 @@
         
 <!-- sezione dedicata al main -->
         <main>
+    <!-- sezione dedicata al jumbotron -->
+            <section class="jumbotron text-blue relative">
+                <div class="prova"> 
+                    <img src="img/jumbotron.png" alt="">
+                        <section class=" jumbotron-70 width-70 margin-auto">
+                            <div class="width-50">
+                                <h1>There's a better way to grow.</h1>
+                                <p class="font-13">
+                                    Marketin, sales, and service software that helps your business grow without compromise. Because "good for the business" should also mean "good for the customer."
+                                </p>
+                                <a class="font-12 spacing-1 button bk-red no-decoration text-white" href="">GetHubSpotFree</a>
+                                <div class="get-started font-10">Get started whit FREE tools, and upgrade as you grow.</div>
+                            </div>
+                        </section>
+                    <div class="margin-bottom-img">
+                    </div>
+                </div>
+            </section>
+    <!-- /sezione dedicata al jumbotron -->
 
-        </main>
+    <!-- sezione dedicata al corpo centrale del main -->
+            <section class="main-center">
+                <div class="powerfull-zone width-50 relative">
+                    <img src="img/cube.webp" alt="">
+                    <h2>Powerful Alone. Better Together</h2>
+                    <p>
+                        HubSpot offers a full steack of software for marketing, sales, and customer service, with a completely free CRM at its core. They're powerful alone - but even better when used togher.
+                    </p>
+                </div>
+                <section class="crm width-70 margin bk-white">
+                    <div class="table-head relative">
+                        <div class="crm-logo width-30 float-left">
+                            <img src="img/book.svg" alt="">
+                            <div class="button text-white bk-red align-center">Learn more</div>
+                        </div>
+                        <div class="width-70 float-left">
+                            <h3>Free HubSpot CRM</h3>
+                            <p>
+                                Everything you need to organize, track, and build better relationships whit leads and customers. Yes, it's 100% free. Forever.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+            </section>
+</main>
 <!-- /sezione dedicata al main -->
 
 <!-- sezione dedicata al footer -->

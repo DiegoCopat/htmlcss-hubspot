@@ -7,6 +7,9 @@
     font-family: 'Nunito', sans-serif;
 }
 
+body {
+    background-color: #FFF2EE;
+}
 /* css comuni per grandezze e disposizione*/
 .width-100 {
     width: 100%;
@@ -57,9 +60,18 @@
 .align-right {
     text-align: right;
 }
+.align-center {
+    text-align: center;
+}
+.margin {
+    margin: auto;
+}
 
 
 /* css per colorazione  */
+.bk-white {
+    background-color: white;
+}
 .bk-red {
     background-color: #FE775A;
 }
@@ -73,7 +85,7 @@
     background-color: grey;
 }
 .bk-blue {
-    background-color: blue;
+    background-color: #F4F9FD;
 }
 .bk-pink {
     background-color: pink;
@@ -87,6 +99,12 @@
 .text-white {
     color: white;
 }
+.font-10 {
+    font-size: 10px;
+}
+.font-12 {
+    font-size: 12px;
+}
 .font-13 {
     font-size: 13px;
 }
@@ -96,12 +114,16 @@
 .font-20 {
     font-size: 20px;
 }
+.spacing-1 {
+    letter-spacing: -1px; 
+} 
+.f-weight-700 {
+    font-weight: 700;
+}
 
 /* css dell'header */
     /* parte alta dell'header */
-header section:first-child {
-    background-color: #F4F9FD;
-}
+
 .header-top-left {
     margin: 20px 0 20px 0;
     width: 40%;
@@ -118,6 +140,8 @@ header section:first-child {
 #select-language {
     border: none;
     color: #3D5364;
+    background-color: #F4F9FD;
+    font-weight: 700;
 }
 .header-contact {
     margin-left: 3%;
@@ -137,10 +161,15 @@ header section:first-child {
     color: #37B6CB;
     font-weight: 900;
 }
-
+#fixed {
+    position: fixed;
+    width: 100%;
+    z-index: 4;
+}
     /* seconda parte dell'header */
 .header-center {
-    margin-top: 15px;
+    margin-top: 55px;
+    padding-top: 30px; 
 }
 .header-center option {
     float: right;
@@ -148,11 +177,112 @@ header section:first-child {
 .nav li{
     display: inline-block;
     list-style: none;
-    margin: 0 10px 0 10px;
+    margin: 0px 4px 0 4px;
 
 }
 .nav select, .a {
-    width: 85px;
     color: #3D5364;
     font-size: 13px;
-    letter-spacing: 0px;
+}
+
+.nav {
+    line-height: 30px;
+    margin-bottom: 15px;
+    
+}
+
+/* css del main */
+    /* css dedicato al jumbotron */
+h1 {
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 700;
+}
+.jumbotron {
+    height: 675px;
+}
+.jumbotron-70 {
+    position: relative;
+    padding-top: 30px;
+    z-index: 2;
+}
+.jumbotron p {
+    font-size: 13px;
+    font-weight: 300;
+    padding-top: 35px;
+    margin-bottom: 40px;
+    line-height: 25px;
+}
+.jumbotron a {
+    padding: 10px 30px;
+}
+.jumbotron img {
+    height: 657px;
+    position: absolute;
+    top:0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.prova::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.get-started {
+    padding-top: 35px;
+}
+.margin-bottom-img {
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    border-top: 5px solid #33475B;
+    border-bottom: 5px solid #33475B; 
+    background-color:#AFEBE4;
+    z-index: 3;
+    top: 576px;
+    left: 0;
+}
+    /* css dedicato alla parte centrale del main */
+
+.main-center {
+    /* height: 1000px; */
+    background-color: #F4F9FD;
+    padding-top: 50px;
+}
+
+.powerfull-zone {
+    margin: auto;
+    margin-bottom: 30px;
+}
+.powerfull-zone img{
+    position: relative;
+    width: 200px;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.powerfull-zone h2 {
+    text-align: center;
+    font-size: 30px;
+}
+.powerfull-zone p {
+    margin-top: 30px;
+}
+
+.table-head {
+}
+.table-head::after {
+    content:"";
+    display: table; 
+    clear: both;
+}
+.crm-logo {
+    /* margin-top: 30px; */
+    padding: 70px;
+}
+.crm-logo>.button {
+    line-height: 40px;
+    margin-top: 20px;
+}
