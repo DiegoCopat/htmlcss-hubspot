@@ -35,6 +35,9 @@ body {
 .float-left {
     float: left;
 }
+.float-right {
+    float: right;
+}
 .no-border {
     border: none;
 }
@@ -53,9 +56,12 @@ body {
     vertical-align: middle;
 }
 .button {
-    padding: 5px 10px;
+    padding: 5px 20px;
     border: 1px solid #FE775A;
     border-radius: 5px;
+}
+.align-left {
+    text-align: left;
 }
 .align-right {
     text-align: right;
@@ -120,12 +126,30 @@ body {
 .f-weight-700 {
     font-weight: 700;
 }
+h4 {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+h2 {
+    font-size: 30px;
+}
+.list-1 {
+    list-style: none;
+}
+.b-vert {
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+.b-bottom {
+    border-bottom: 1px solid white;
+}
+
 
 /* css dell'header */
     /* parte alta dell'header */
 
 .header-top-left {
-    margin: 20px 0 20px 0;
+    margin: 25px 0 25px 0;
     width: 40%;
 }
 .header-top-right {
@@ -164,6 +188,9 @@ body {
 #fixed {
     position: fixed;
     width: 100%;
+    border-bottom: 1px solid blue;
+    top: 0;
+    left: 0;
     z-index: 4;
 }
     /* seconda parte dell'header */
@@ -255,34 +282,110 @@ h1 {
 .powerfull-zone {
     margin: auto;
     margin-bottom: 30px;
+    text-align: center;
 }
 .powerfull-zone img{
-    position: relative;
     width: 200px;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
 }
 .powerfull-zone h2 {
     text-align: center;
-    font-size: 30px;
 }
 .powerfull-zone p {
     margin-top: 30px;
-}
-
-.table-head {
 }
 .table-head::after {
     content:"";
     display: table; 
     clear: both;
 }
+
+/* css dedicato al riquadro free hubspot CRM */
 .crm-logo {
-    /* margin-top: 30px; */
-    padding: 70px;
+    padding: 60px 50px 60px 100px;
 }
 .crm-logo>.button {
     line-height: 40px;
     margin-top: 20px;
+}
+.text-crm {
+    padding: 60px 100px 60px 50px;
+}
+.text-crm p{
+    margin: 35px 0 30px 0;
+}
+.text-crm span {
+    line-height: 15px;
+}
+.text-crm hr {
+    width: 58%;
+    margin: 0 0 0 30px;
+    position: relative;
+    bottom: 3.5px;
+    right: 0;
+}
+.list-1 li:before {
+    padding: 0 5px;
+    margin-right: 15px;
+    content:"\2714";
+    border-radius: 50%;
+    background-color: #FE775A;
+    color: white;
+}
+
+.text-crm li {
+    display: inline-block;
+    margin: 15px 15px 0 0;
+}
+
+/* sezione dedicata alle 3 colonne hub */
+
+.col-3 {
+    margin-top: 30px;
+}
+.col {
+    width: 30%;
+    padding: 20px;
+    background: white;
+}
+.col-sales {
+    margin: 0 5%;
+}
+.col img {
+    height: 100px;
+}
+.col h3 {
+    margin: 30px 0 30px 0;
+}
+.hub-divisor {
+    margin: 50px 0 30px;
+    padding: 0 25px;
+}
+
+.col .list-1 {
+    margin: 30px 0;
+}
+.col .button {
+    display:inline-block;
+    padding: 5px 20px;
+}
+
+/* css dedicata al learn & grow */
+.learn-grow {
+    margin: 30px 0;
+    background-color: #00ABB7;
+}
+
+.learn-grow h2 {
+    padding: 30px 0;
+}
+
+.table {
+    margin: 30px 0;
+    border: 
+}
+.table-unit {
+    display: inline-block;
+    width: 25%;
+    float: left;
+    height: 100px;
 }
