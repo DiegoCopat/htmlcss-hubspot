@@ -126,12 +126,16 @@ body {
 .f-weight-700 {
     font-weight: 700;
 }
+h2 {
+    font-size: 30px;
+}
 h4 {
     text-transform: uppercase;
     font-weight: 700;
 }
-h2 {
-    font-size: 30px;
+h5 {
+    font-size: 40px;
+    color: white;
 }
 .list-1 {
     list-style: none;
@@ -387,5 +391,18 @@ h1 {
     display: inline-block;
     width: 25%;
     float: left;
-    height: 100px;
+    padding-bottom: 20px;
+}
+.table img {
+    margin: 20px 0 5px;
+}
+.table h5 {
+    margin-bottom: 5px;
+}
+.table h5:after {
+    content:"\002B";
+    font-size: 20px;
+    position: relative;
+    bottom: 8px;
+    left: 3px;
 }
