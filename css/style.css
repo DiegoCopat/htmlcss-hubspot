@@ -14,6 +14,9 @@ body {
 .width-100 {
     width: 100%;
 }
+.width-90 {
+    width: 90%;
+}
 .width-75 {
     width: 75%;
 }
@@ -25,6 +28,9 @@ body {
 }
 .width-30 {
     width: 30%;
+}
+.width-25 {
+    width: 25%;
 }
 .inline-block {
     display: inline-block;
@@ -72,6 +78,9 @@ body {
 .margin {
     margin: auto;
 }
+.margin-top-30 {
+    margin-top: 30px;
+}
 
 
 /* css per colorazione  */
@@ -104,6 +113,9 @@ body {
 }
 .text-white {
     color: white;
+}
+.text-black {
+    color: black;
 }
 .font-10 {
     font-size: 10px;
@@ -385,7 +397,8 @@ h1 {
 
 .table {
     margin: 30px 0;
-    border: 
+    padding: 20px 0 90px 0;
+    
 }
 .table-unit {
     display: inline-block;
@@ -405,4 +418,38 @@ h1 {
     position: relative;
     bottom: 8px;
     left: 3px;
+}
+
+/* css dedicata al main-footer */
+.main-footer {
+    width: 60%;
+    height: 500px;
+}
+.main-footer h5{
+    padding-bottom: 20px;
+}
+.table-sp {
+    margin-top: 15px;
+}
+.tabella-sponsor{
+    width: 75%;
+    margin: auto;
+
+}
+.table-sponsor {
+    position: relative;
+    top: 50%;
+    right: 0;
+    display: inline-block;
+    text-align: center;
+    width: 25%;
+    height: 50%;
+    float: left;
+    padding: 10px 0 5px 110px;
+    /* background-color: blue; */
+}
+.table-sponsor img {
+    width: 75px;
+    object-fit: contain;
+    margin: 0 0 5px;
 }
