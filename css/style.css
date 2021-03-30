@@ -26,6 +26,9 @@ body {
 .width-50 {
     width: 50%;
 }
+.width-40 {
+    width: 40%;
+}
 .width-30 {
     width: 30%;
 }
@@ -423,7 +426,6 @@ h1 {
 /* css dedicata al main-footer */
 .main-footer {
     width: 60%;
-    height: 500px;
 }
 .main-footer h5{
     padding-bottom: 20px;
@@ -452,4 +454,77 @@ h1 {
     width: 75px;
     object-fit: contain;
     margin: 0 0 5px;
+}
+
+/* css dedicata al parte finale del main */
+.growing {
+    padding: 50px 0 30px 0;
+}
+.growing h3 {
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+.growing p {
+    padding: 0 0 30px 0;
+}
+
+.g-note {
+    padding-top: 30px;
+}
+.img-growing {
+    width: 60%;
+    text-align: right;
+}
+.img-growing img {
+    width: 175px;
+}
+
+/* sezione dedicata al footer */
+footer {
+    background-color: #32495B;
+}
+
+.footer-col {
+    width: 25%;
+    margin-top: 25px 0;
+}
+.footer-col li{
+    list-style: none;
+    font-size: 12px; 
+    margin: 20px 0;
+}
+.footer-col .button {
+    border: 1px solid white;
+    display: inline-block;
+    color: #32495B;
+    font-weight: 700;
+    padding: 5px 5px;
+}
+footer hr {
+    margin-top: 100px;
+}
+.lingue li{
+    list-style: none;
+    display: inline-block;
+    margin: 15px;
+}
+.lingue {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 50px; 
+}
+.credits-left img{
+    margin-top: 30px;
+}
+
+.credits-right a{
+    text-decoration: none;
+    color: white;
+}
+.credits-right {
+    position: absolute; 
+    bottom: 30px;
+    right: 0;
 }
